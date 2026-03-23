@@ -15,3 +15,6 @@ def test_multiple_tasks():
     tasks = get_tasks()
     assert "Learn CI" in tasks
     assert "Learn DevOps" in tasks
+
+def delete_task(task):
+    tasks.remove(task)
